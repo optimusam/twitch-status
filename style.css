@@ -1,0 +1,68 @@
+@font-face{
+    font-family: twitch;
+    src: local("Helvetica Neue Bold"),
+         local("HelveticaNeue-Bold"),
+         url(fonts/twitch.ttf);
+}
+body{
+    background-color: #6441A4;
+    color: white;
+    font-size: 16px;
+}
+
+.container{
+  margin:0 auto;
+  width: 100%;
+}
+.container h1{
+    font-family: twitch;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 2rem;
+}
+.status {
+  font-family: 'Russo One', sans-serif;
+  margin: 1rem;
+  color: white;
+  overflow-x: hidden;
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+.status a{
+  text-decoration: none;
+  color: white;
+}
+.status .wrapper{
+  display: grid;
+  margin: 1rem;
+  grid-template-columns: 1fr 9fr;
+  text-align: center;
+  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.5);
+}
+.status .logo img{
+  margin-top: 50%;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.status .info{
+  word-break: break-all;
+  text-align: center;
+  padding: 1rem;
+}
+.status .info span {
+  margin: 1rem;
+  display: block;
+}
+.status .info span:nth-child(odd) {
+  color:pink;
+}
+.fa-eye {
+  color: pink;
+}
+.fa-twitch {
+  margin-bottom: none;
+}
+.fadein{
+  opacity: 1;
+}
