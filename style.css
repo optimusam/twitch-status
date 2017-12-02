@@ -22,7 +22,7 @@ body{
 }
 .status {
   font-family: 'Russo One', sans-serif;
-  margin: 1rem;
+  margin: 0 auto;
   color: white;
   overflow-x: hidden;
   opacity: 0;
