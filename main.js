@@ -1,7 +1,7 @@
 var online = document.querySelector(".online");
 var offline = document.querySelector(".offline");
 var status = document.querySelector("#result");
-var users = ["ESL_SC2", "shroud", "drdisrespectlive", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas"];
+var users = ["ESL_SC2", "shroud", "DrDisRespectLive", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas"];
 users.forEach(function(user) {
     var request = new XMLHttpRequest();
     request.open('GET', "https://wind-bow.glitch.me/twitch-api/streams/" + user, true);
